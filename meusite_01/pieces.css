@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Quicksand',sans-serif;
+    box-sizing: border-box;
+
+}
+#topo{
+    margin-top: 20px;
+    padding:20px;
+
+}
+#topo h1{
+    font-size: 40px;
+    position: relative;
+}
+#topo h1::before{
+    position: absolute;
+    content: '';
+    height:3px;
+    width: 170px;
+    background: linear-gradient(90deg, #0011ff,#ffff);
+    bottom:0px;
+
+}
+img{
+    width: 100%;
+    height:500px;
+    border-radius:8px;
+}
+h2{
+    text-align: center;
+}
+#container{
+    padding:20px;
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.principal{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px ;
+
+}
+
+.lista{
+    padding:30px;
+    background-color: #0011ff;
+    color:white;
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 9px rgb(0,0,0,0.15);
+}
+.principal li{
+    padding:20px;
+    margin-left: 10px;
+}
+#floor{
+    border-radius: 8px;
+    color:#0011ff;
+    background-color:#d3d3d3;
+    padding:40px;
+    transition: 0.5s;
+}
+#floor:hover{
+    color:#d3d3d3;
+    background-color:#0011ff;
+    transition: 0.5s;
+}
+.container-fl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
